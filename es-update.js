@@ -10,7 +10,7 @@ function updateQuery(qStart, qSize, query) {
     newQuery['from'] = qStart;
     newQuery['size'] = qSize;  
   
-    console.log(newQuery);
+    //console.log(newQuery);
   
     return newQuery;
 }
