@@ -1,0 +1,8 @@
+{
+  "name": "esUpdater",
+  "description": "ElasticSearch Query & Update Script",
+  "author": "Yann Barraud <yann.barraud@gmail.com>",
+  "dependencies": {
+    "elasticsearchclient": "*"
+  }
+}
