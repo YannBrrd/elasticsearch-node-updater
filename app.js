@@ -1,4 +1,4 @@
-﻿updater = require('./es-update');
+﻿updater = require('./lib/es-update');
 
 var qryObj = {
   "query": {
