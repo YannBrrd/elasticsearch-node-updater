@@ -62,7 +62,7 @@ function updateEntries(index, type, qryObj, stringToMatch, replacementString) {
                 
                 //entry['_id'] = entryId;
                 
-                var newEntry = JSON.stringify(entry).replace(stringToMatch, replacementString);
+                var newEntry = JSON.stringify(entry).replace(stringToMatch, replacementString, "gi");
                
                 //bulk preparation
                 
